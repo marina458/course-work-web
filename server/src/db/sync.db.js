@@ -41,7 +41,7 @@ const createAdmin = async () => {
     }
 };
 
-sequelize.sync({ alter: true })
+sequelize.sync({})
     .then(async () => {
         console.log("Sync with the database is successful");
         await createAdmin();
