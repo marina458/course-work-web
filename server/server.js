@@ -2,8 +2,6 @@ require("dotenv").config();
 require("./src/db/connect.db");
 require("./src/db/sync.db");
 
-const fucntions = require('firebase-functions')
-
 const app = require("express")();
 
 const appMiddleware = require("./src/middlewares/app.middleware");
