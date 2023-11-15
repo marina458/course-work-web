@@ -1,4 +1,4 @@
-const server = "http://localhost:1111/api/v1";
+const server = "/api";
 
 export const AuthURL = {
     loginURL: `${server}/auth/login`,
